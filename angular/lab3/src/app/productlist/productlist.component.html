@@ -1,0 +1,28 @@
+<table class="table table-bordered table-striped " style="width: 965px;">
+    <thead class="table-primary">
+      <tr>
+        <th class="">Tên SP</th>
+        <th class="">Ảnh</th>
+        <th class="">Code</th>
+        <th class="">Ngày</th>
+        <th class="">Giá</th>
+        <th class="">Đánh giá</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let p of products">
+        <td class="" (click)="xemChiTiet(p.id)">{{p.tensp|uppercase}}</td>
+        <td class=""><img [src]="p.urlImage" alt="Hình ảnh" style="width: 100px; height: 100px;"></td>
+        <td class="">{{p.code}}</td>
+        <td class="" >{{p.ngay}}</td>
+        <td class="">{{p.giasp}}</td>
+        <td class="">{{p.starRate}}</td>
+
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
