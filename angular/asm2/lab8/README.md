@@ -1,8 +1,0 @@
-- vào file lab8 mở cmd và chạy lệnh ng serve
-- kế tiếp cũng thư mục lab8 và mở cmd chạy lệnh json-server --watch db.json
-- sau đó vào thư mục lab7_ServerNodeJS mở cmd chạy lệnh node server.js
-- sau đó truy cập vào http://localhost:4200/
-- khi giao diện hiện ra thì nhấn vào tài khoản và đăng nhập
-- sau đó tên đăng nhập là aa và mật khẩu là 123
-- phải đăng nhập vào mới xem được
-- sau đó thực hiện thêm sửa xóa các phần dự án task nhân viên như bình thường
